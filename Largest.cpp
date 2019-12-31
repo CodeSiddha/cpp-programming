@@ -25,6 +25,7 @@ int main(){
             cout<<".....B is Greatest....."<<endl;
         }else{
             cout<<".....C is Greatest....."<<endl;
+            cout<<".....THANKS....."<<endl;
         }
     }
 
