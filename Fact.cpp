@@ -4,15 +4,16 @@ using namespace std;
 
 int main(){
 
-    int num,a ;
+    int num,a=1 ;
     int fact =1;
     cout<<"..........PROGRAM FOR FINDING FACTORIALS.........."<<endl;
     cout<<"Enter Number.."<<endl;
     cin>> num;
 
-    for(a=1;a<=num;a++){
+    while(a<=num){
 
         fact = a * fact;
+        a++;
     }
     cout<<"Factorial of "<<num<<" is "<<fact<<endl;
 }
